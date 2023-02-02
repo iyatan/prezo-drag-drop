@@ -1,6 +1,6 @@
 # prezo-assignment
 
-Hi there, thanks for your interest in Prezo. We are excited to work with builders and hackers to help us shape Prezo.
+Hi there, thanks for your interest in [Prezo](https://prezo.ai). We are excited to work with builders and hackers to help us shape Prezo.
 
 This repo hosts a basic drag and drop interface that we built into Prezo. The version in this repo is incomplete, buggy and just not ready. Your mission, should you choose to accept it, is to create a working version of the drag and drop interface for slides.
 
@@ -26,7 +26,7 @@ This is what it will look like when ready [Demo video](https://www.loom.com/shar
 
 The project uses Vue 3 and Vite. You don't really need to know a lot about Vue to complete this. The official Vue docs are quite good if you want to quickly understand how to work with Vue.
 
-Please do not use any dragging related libaries. If you are having a hard time using Vue and strongly feel that you are more productive in React/something else, use it.
+Please do not use any dragging related libraries. If you are having a hard time using Vue and strongly feel that you are more productive in React/something else, use it.
 
 ## Deliverables
 
