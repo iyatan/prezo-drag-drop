@@ -28,6 +28,18 @@ The project uses Vue 3 and Vite. You don't really need to know a lot about Vue t
 
 Please do not use any dragging related libaries. If you are having a hard time using Vue and strongly feel that you are more productive in React/something else, use it.
 
+## Deliverables
+
+- Fork this repo
+
+- Add your magic
+
+- Host it on vercel/netlify/anywhere else
+
+- Record a short video walking us through how you crushed this
+
+- Share the forked repo, the video and the hosted app with us
+
 ## Resources
 
 - [Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
