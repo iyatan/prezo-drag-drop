@@ -22,7 +22,7 @@ This is what it will look like when ready [Demo video](https://www.loom.com/shar
 
 - any ux flair you want to add (ideal - chance to show off)
 
-- an implementation that you think is even better
+- an implementation that you think is even better (optional)
 
 The project uses Vue 3 and Vite. You don't really need to know a lot about Vue to complete this. The official Vue docs are quite good if you want to quickly understand how to work with Vue.
 
