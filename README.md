@@ -14,19 +14,19 @@ This is what it will look like when ready [Demo video](https://www.loom.com/shar
 
 - fix minor css issues that you can notice
 
-## Advanced requirements
-
 - make sure the dropped slide is always visible in the viewport
-
-- allow dragging multiple slides at once
 
 - add undo/redo
 
-- any ux flair you want to add OR an implementation that you think is even better than using the HTML Drag and Drop API
+- allow dragging multiple slides at once (advanced - chance to show off)
+
+- any ux flair you want to add (ideal - chance to show off)
+
+- an implementation that you think is even better
 
 The project uses Vue 3 and Vite. You don't really need to know a lot about Vue to complete this. The official Vue docs are quite good if you want to quickly understand how to work with Vue.
 
-Please do not use any dragging related libaries.
+Please do not use any dragging related libaries. If you are having a hard time using Vue and strongly feel that you are more productive in React/something else, use it.
 
 ## Resources
 
