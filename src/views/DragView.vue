@@ -51,6 +51,7 @@ export default {
     });
     const containerRef = ref(null);
     const { top, bottom } = useElementBounding(containerRef);
+
     useEventListener(containerRef, "drag", (e) => {
       // handle scroll here
       if (e.clientY < top.value + 50) {
@@ -60,12 +61,12 @@ export default {
         containerRef.value.scrollTop += 10;
       }
     });
+
     return { itemRefs, containerRef };
   },
   data() {
     return {
       dropIndex: null,
-
       containerStyle: {
         margin: "20px 20px",
         width: "240px",
@@ -181,6 +182,7 @@ export default {
     },
     onDrop(event) {
       event.target.parentNode.style.borderTop = "";
+      event.target.parentNode.style.borderBottom = "";
       event.preventDefault();
       const oldIndex = parseInt(event.dataTransfer.getData("text"), 10);
 
@@ -192,17 +194,22 @@ export default {
       let removedElement = slides.splice(oldIndex, 1)[0];
       slides.splice(newIndex, 0, removedElement);
       this.slides = slides;
+
       this.updateHistory();
     },
     handleDragOver(event, index) {
-      console.log(index);
       this.dropIndex = index;
 
       event.preventDefault();
-      event.target.parentNode.style.borderTop = "4px solid #342DF2";
+      if (index >= 4) {
+        event.target.parentNode.style.borderBottom = "4px solid #342DF2";
+      } else {
+        event.target.parentNode.style.borderTop = "4px solid #342DF2";
+      }
     },
     handleDragLeave(event) {
       event.target.parentNode.style.borderTop = "";
+      event.target.parentNode.style.borderBottom = "";
     },
     updateHistory() {
       // Save current state to history
